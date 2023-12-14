@@ -33,9 +33,6 @@ pub fn main() !void {
             }
         }
 
-        std.debug.print("1: {d}\n", .{first});
-        std.debug.print("2: {d}\n", .{second});
-        std.debug.print("3: {d}\n", .{(10 * first) + second});
         total += (10 * first) + second;
     }
 
